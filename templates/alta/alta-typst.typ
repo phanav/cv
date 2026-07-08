@@ -1,5 +1,5 @@
-#let primary_colour = rgb("#3E0C87") // vivid purple
-#let link_colour = rgb("#12348e") // blue
+#let primary_colour = rgb("#cc241d") // red
+#let link_colour = rgb("#cc241d") // red
 
 // polyfill, as of Typst 0.14.0 target() only works when compiling with --features html
 // and you can't set --features html on typst.app
@@ -76,7 +76,7 @@
 }
 
 
-#let max_rating = 5
+#let max_rating = 3
 #let skill(name, rating) = context {
   let done = false
   let i = 1
