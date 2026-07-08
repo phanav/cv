@@ -151,7 +151,7 @@
   )
   // set text(10pt, font: ("Cantarell"))
   // Uses Cantarell or Liberation for Latin text + ñ, but drops into Noto for Chinese
-  set text(10pt, font: ("Cantarell", "Liberation Sans", "Noto Sans CJK SC"))
+  set text(11pt, font: ("Cantarell", "Liberation Sans", "Noto Sans CJK SC"))
   set page(
     margin: (x: 54pt, y: 52pt),
   )
