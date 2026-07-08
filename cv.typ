@@ -1,97 +1,115 @@
 #import "templates/alta/alta-typst.typ": alta, term, skill, styled-link, name, target
 
+// #show link: set text(0.8em)
+
 #alta(
-  name: "John Smith",
+  name: "Phan Anh VU",
   links: (
-    (name: "email", link: "mailto:contact@example.com"),
-    (name: "website", link: "https://example.com/", display: "example.com"),
-    (name: "github", link: "https://github.com/example", display: "@example"),
-    (name: "linkedin", link: "https://linkedin.com/in/example", display: "John Smith"),
+    (name: "email", link: "phanav.pavu@gmail.com"),
+    (name: "website", link: "https://phanav.github.io", display: "phanav.github.io"),
+    (name: "github", link: "https://github.com/phanav", display: "@phanav"),
+    (name: "linkedin", link: "https://www.linkedin.com/in/phanav", display: "linkedin.com/in/phanav"),
   ),
-  tagline: [Software Engineer. #lorem(10)],
+  tagline: [AI and chip design research],
   context [
+
+
     == Experience
 
-    === Junior Software Engineer \
-    #name[_Company Two_]
-    #term[Jul 2021 --- Jul 2022][London, UK]
+    === PhD Researcher, 
+    #name[CEA (Commissariat à l'Énergie Atomique et alternative)]
+    #term[2023/03 - 2026/07][Grenoble, France]
 
-    - #lorem(15)
-    - #lorem(10)
-    - #lorem(24)
+    Uncertainty in Machine Learning and Hardware Design
 
-    === Junior Systems Administrator \
-    #name[Company 1]
-    #term[Oct 2019 --- Jul 2021][Bournemouth, UK]
+    === Intern Researcher, 
+    #name[SATIE Lab, ENS Paris Saclay]
+    #term[2022/02 - 2022/08][Paris, France]
 
-    - #lorem(20)
-    - #lorem(10)
+    Probabilistic and physics-informed machine learning for predictive maintenance with time series data
 
-    References available on request
+    === Intern Researcher, 
+    #name[ENS Paris Saclay SATIE Lab]
+    #term[2022/02 - 2022/08][Paris, France]
+
+    Probabilistic and physics-informed machine learning for predictive maintenance with time series data
+
+    === Software Engineer, 
+    #name[Cegid Talentsoft]
+    #term[2017/11 - 2019/12][Paris, France]
+
+    Fullstack software development
+
+    === Web Developer & Designer, 
+    #name[Ethikonsulting]
+    #term[2016/09 - 2017/09][Paris, France]
+
+    Web development, graphic design
+
 
     == Education
 
-    === Higher \
-    #name[University Name]
-    #term[Sep 2019 --- Jul 2023][Location, UK]
+    === PhD, 
+    #name[Université Grenoble Alpes]
+    #term[2023 - 2026][Grenoble, France]
 
-    B.Sc. Computer Science with Year in Industry. #lorem(10)
+    === Master, Computer Science and Artificial Intelligence, 
+    #name[Université Paris Saclay]
+    #term[2020 - 2022][Paris, France]
 
-    === A-Levels \
-    #name[Place Grammar School]
-    #term[Sep 2017 --- Aug 2019][Place, UK]
+    === Bachelor, Multimedia Design and Production, 
+    #name[Université Évry Paris Saclay]
+    #term[2016 - 2017][Paris, France]
 
-    #lorem(10)
+    === Master, International Business Administration, 
+    #name[ESCG Paris Business School]
+    #term[2014 - 2016][Paris, France]
 
-    == Interests
+    === Bachelor, Economics and Finance, 
+    #name[Université Sorbonne Paris Nord]
+    #term[2011 - 2014][Paris, France]
 
-    - Walks on the beach
-    - #lorem(8)
-    - #lorem(6)
-    - #lorem(4)
-    - #lorem(12)
-    
+   
     #if target() == "paged" {
       colbreak()
     }
 
-    == Projects
 
-    ==== #link("https://example.com")[Some project]
+    == Technical Skills
 
-    #lorem(30)
+    / Machine Learning & Data Science:
+    Python, PyTorch, Keras, TensorFlow, Jax, pandas, scikit-learn, matplotlib, seaborn, Julia
+
+    / Electronic Design Automation (EDA):
+    Cadence Virtuoso, Eldo, VHDL
+
+    / Fullstack Software Development:
+    - .NET: C\#, ASP MVC
+    - Web: JavaScript, jQuery, TypeScript
+    - SQL Server, PostgreSQL, MongoDB, Redis
+    - Git, Docker, Game Engine Unity3D, Adobe Creative, Gimp, Inkscape
+
     
-    #styled-link("https://example.com")[Example page]
+    == Publications
 
-    ==== Project with a longer name
+    Compressed vector-matrix multiplication for Memristor-based ensemble neural networks (patented),
+    IEEE International Conference on Rebooting Computing 2024: 
+    #styled-link("https://phanav.github.io/posts/hardware/memristor_hadamard_multiplier.html")[Blog page]
 
-    #lorem(20)
+    Probabilistic and Physics-Informed Machine Learning for Predictive Maintenance with Time Series Data, EuroSimE 2023: #styled-link("https://github.com/phanav/probabilistic-physics-satie")[Code repository]
 
-    ==== Employee Appraisal System
+    Meta-Album: Multi-domain Meta-Dataset for Few-Shot Image Classification, NeurIPS 2022, Datasets and Benchmarks Track: #styled-link("https://meta-album.github.io")[Website]
 
-    - #lorem(15)
-    - #lorem(10)
-    - #lorem(20)
 
-    ==== Hackathons
+  == Languages
 
-    / Hack1: #lorem(20)
-    / TwoHackTwo: #lorem(15)
+    #skill("English, Français, Tiếng Việt", 3)
+    #skill("中文, Español, Deutsch", 1)
 
-    ==== Project 4
 
-    - #lorem(30)
-    - #lorem(10)
+  == Hobbies
+  Dance (hiphop, latin), music (vocal, piano, guitar), tennis, books
 
-    ==== Project Five
-
-    - #lorem(23)
-
-    == Skills
-
-    #skill("Go", 5)
-    #skill("TypeScript", 3)
-    #skill("Git", 1)
-    #skill("Typst", 1)
+  // end
   ],
 )
