@@ -86,6 +86,7 @@
 
       if (i <= rating) {
         colour = link_colour
+        // colour = black
       }
 
       let boxed_circle = box(circle(
@@ -151,7 +152,7 @@
   )
   // set text(10pt, font: ("Cantarell"))
   // Uses Cantarell or Liberation for Latin text + ñ, but drops into Noto for Chinese
-  set text(11pt, font: ("Cantarell", "Liberation Sans", "Noto Sans CJK SC"))
+  set text(11pt, font: ("Latin Modern Sans", "Liberation Sans", "Noto Sans CJK SC"))
   set page(
     margin: (x: 54pt, y: 52pt),
   )
@@ -194,6 +195,8 @@
         #{ it.body }
         #v(-7pt)
         #line(length: 100%, stroke: 1pt + primary_colour)
+        // #line(length: 100%, stroke: 1pt)
+
       ],
     )
 
