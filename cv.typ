@@ -23,16 +23,17 @@
     Uncertainty in Machine Learning and Hardware Design
 
     === Intern Researcher, 
-    #name[SATIE Lab, ENS Paris Saclay]
+    #name[ENS Paris Saclay SATIE Lab]
     #term[2022/02 - 2022/08][Paris, France]
 
     Probabilistic and physics-informed machine learning for predictive maintenance with time series data
 
     === Intern Researcher, 
-    #name[ENS Paris Saclay SATIE Lab]
-    #term[2022/02 - 2022/08][Paris, France]
+    #name[Université Paris Saclay LISN Lab]
+    #term[2021/04 - 2021/09][Paris, France]
 
-    Probabilistic and physics-informed machine learning for predictive maintenance with time series data
+    Few-shot and meta learning
+
 
     === Software Engineer, 
     #name[Cegid Talentsoft]
@@ -49,11 +50,11 @@
 
     == Education
 
-    === PhD, 
+    === PhD, Machine Learning & Electronics, 
     #name[Université Grenoble Alpes]
     #term[2023 - 2026][Grenoble, France]
 
-    === Master, Computer Science and Artificial Intelligence, 
+    === Master, Computer Science & Artificial Intelligence, 
     #name[Université Paris Saclay]
     #term[2020 - 2022][Paris, France]
 
@@ -77,13 +78,15 @@
 
     == Technical Skills
 
-    / Machine Learning & Data Science:
+    * Machine Learning & Data Science:*
+
     Python, PyTorch, Keras, TensorFlow, Jax, pandas, scikit-learn, matplotlib, seaborn, Julia
 
-    / Electronic Design Automation (EDA):
+    * Electronic Design Automation (EDA):*
+    
     Cadence Virtuoso, Eldo, VHDL
 
-    / Fullstack Software Development:
+    * Fullstack Software Development:*
     - .NET: C\#, ASP MVC
     - Web: JavaScript, jQuery, TypeScript
     - SQL Server, PostgreSQL, MongoDB, Redis
@@ -93,12 +96,12 @@
     == Publications
 
     Compressed vector-matrix multiplication for Memristor-based ensemble neural networks (patented),
-    IEEE International Conference on Rebooting Computing 2024: 
+    _IEEE International Conference on Rebooting Computing 2024_: 
     #styled-link("https://phanav.github.io/posts/hardware/memristor_hadamard_multiplier.html")[Blog page]
 
-    Probabilistic and Physics-Informed Machine Learning for Predictive Maintenance with Time Series Data, EuroSimE 2023: #styled-link("https://github.com/phanav/probabilistic-physics-satie")[Code repository]
+    Probabilistic and Physics-Informed Machine Learning for Predictive Maintenance with Time Series Data, _EuroSimE 2023_: #styled-link("https://github.com/phanav/probabilistic-physics-satie")[Code repository]
 
-    Meta-Album: Multi-domain Meta-Dataset for Few-Shot Image Classification, NeurIPS 2022, Datasets and Benchmarks Track: #styled-link("https://meta-album.github.io")[Website]
+    Meta-Album: Multi-domain Meta-Dataset for Few-Shot Image Classification, _NeurIPS 2022 Datasets and Benchmarks_: #styled-link("https://meta-album.github.io")[Website]
 
 
   == Languages
