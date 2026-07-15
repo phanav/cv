@@ -1,6 +1,15 @@
 #let primary_colour = rgb("#cc241d") // red
 #let link_colour = rgb("#cc241d") // red
 
+// #let styled-link(dest, content) = emph(text(
+//   fill: link_colour,
+//   link(dest, content),
+// ))
+#let styled-link(dest, content) = text(
+  fill: link_colour,
+  link(dest, content),
+)
+
 // polyfill, as of Typst 0.14.0 target() only works when compiling with --features html
 // and you can't set --features html on typst.app
 #let target() = {
@@ -10,7 +19,7 @@
 #let icon(name, shift: 1.5pt) = context {
   let body = box(
     baseline: shift,
-    height: 10pt,
+    height: 1em,
     image("icons/" + name + ".svg"),
   )
   if target() == "paged" {
@@ -42,9 +51,11 @@
       icon(service.name)
 
       if "display" in service.keys() {
-        link(service.link)[#{ service.display }]
+        // link(service.link)[#{ service.display }]
+        styled-link(service.link, service.display)
       } else {
-        link(service.link)
+        // link(service.link)
+        styled-link(service.link, service.link)
       }
     })
     .join(h(10pt))
@@ -62,6 +73,7 @@
       icon("location")
       location
     })
+  v(-0.5em) // <--- Pulls the content below 4pt closer to this line
   } else {
     html.div(
       style: "display: flex; align-items: center; gap: 10px;",
@@ -135,11 +147,6 @@
   }
 }
 
-#let styled-link(dest, content) = emph(text(
-  fill: link_colour,
-  link(dest, content),
-))
-
 #let alta(
   name: "",
   links: (),
@@ -154,7 +161,7 @@
   // Uses Cantarell or Liberation for Latin text + ñ, but drops into Noto for Chinese
   set text(11pt, font: ("Latin Modern Sans", "Liberation Sans", "Noto Sans CJK SC"))
   set page(
-    margin: (x: 54pt, y: 52pt),
+    margin: (x: 1.7cm, y: 1.7cm),
   )
 
   let body = {
@@ -184,7 +191,7 @@
       author: name,
     )
     set page(
-      margin: (x: 54pt, y: 52pt),
+      margin: (x: 1.7cm, y: 1.7cm),
     )
 
     show heading.where(
