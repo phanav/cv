@@ -7,8 +7,8 @@
   links: (
     (name: "email", link: "phanav.pavu@gmail.com"),
     (name: "website", link: "https://phanav.github.io", display: "phanav.github.io"),
-    (name: "github", link: "https://github.com/phanav", display: "@phanav"),
-    (name: "linkedin", link: "https://www.linkedin.com/in/phanav", display: "linkedin.com/in/phanav"),
+    (name: "github", link: "https://github.com/phanav", display: "phanav"),
+    (name: "linkedin", link: "https://www.linkedin.com/in/phanav", display: "phanav"),
     (name: "scholar", link: "https://scholar.google.com/citations?user=ULsVXd0AAAAJ&hl=en", display: "Google Scholar"),
   ),
   tagline: [AI and chip design research],
@@ -21,7 +21,7 @@
     #name[CEA (Commissariat à l'Énergie Atomique et alternative)]
     #term[2023/03 - 2026/07][Grenoble, France]
 
-    Uncertainty in Machine Learning and Hardware Design
+    Uncertainty in Deep Learning and Hardware Design
 
     === Intern Researcher, 
     #name[ENS Paris Saclay SATIE Lab]
@@ -79,32 +79,29 @@
 
     == Technical Skills
 
-    * Machine Learning & Data Science:*
-
-    Python, PyTorch, Keras, TensorFlow, Jax, pandas, scikit-learn, matplotlib, seaborn, Julia
+    * Machine Learning & Data Science:*    
+    Python, PyTorch, Keras, TensorFlow, Jax, numpy, pandas, scikit-learn, matplotlib, seaborn, Julia
 
     * Electronic Design Automation (EDA):*
-    
     Cadence Virtuoso, Eldo, VHDL
 
-    * Fullstack Software Development:*
-    - .NET: C\#, ASP MVC
-    - Web: JavaScript, jQuery, TypeScript
-    - SQL Server, PostgreSQL, MongoDB, Redis
-    - Git, Docker, Game Engine Unity3D, Adobe Creative, Gimp, Inkscape
-
+    * Software Development:*
+    NET: C\#, ASP MVC, JavaScript, jQuery, TypeScript, Git, SQL, Redis
+    // - .NET: C\#, ASP MVC
+    // - Web: JavaScript, jQuery, TypeScript
+    // - Git, SQL Server, PostgreSQL, MongoDB, Redis
+    // - Git, Docker, Game Engine Unity3D, Adobe Creative, Gimp, Inkscape
     
     == Publications
 
-    Adaptive Low-Rank Ensemble: estimation of ensemble performance as a function of the size, and reduce memory size by 3 up to 6 with equal performance as traditional ensemble (preprint available on request).
+    Adaptive Low-Rank Ensemble: estimation of ensemble performance as a function of the size, and reduce memory size by 3 up to 6 with equal performance as traditional ensemble (patent pending, preprint available on request).
 
     Compressed vector-matrix multiplication for Memristor-based ensemble neural networks (patented),
-    _IEEE International Conference on Rebooting Computing 2024_: an analog in-memory computing circuit with memristor to implement vector element-wise multiplication and low-rank approximation of ensemble of neural networks 
-    #styled-link("https://phanav.github.io/posts/hardware/memristor_hadamard_multiplier.html")[(Blog page)].
+    _IEEE International Conference on Rebooting Computing 2024_: an analog in-memory computing circuit with memristor to implement vector element-wise multiplication and low-rank approximation of ensemble of neural networks (#styled-link("https://phanav.github.io/posts/hardware/memristor_hadamard_multiplier.html")[Blog page]).
 
-    Probabilistic and Physics-Informed Machine Learning for Predictive Maintenance with Time Series Data, _EuroSimE 2023_: #styled-link("https://github.com/phanav/probabilistic-physics-satie")[Code repository]
+    Probabilistic and Physics-Informed Machine Learning for Predictive Maintenance with Time Series Data, _EuroSimE 2023_: (#styled-link("https://github.com/phanav/probabilistic-physics-satie")[Code repository])
 
-    Meta-Album: Multi-domain Meta-Dataset for Few-Shot Image Classification, _NeurIPS 2022 Datasets and Benchmarks_: #styled-link("https://meta-album.github.io")[Website]
+    Meta-Album: Multi-domain Meta-Dataset for Few-Shot Image Classification, _NeurIPS 2022 Datasets and Benchmarks_: (#styled-link("https://meta-album.github.io")[Website])
 
 
   == Languages
