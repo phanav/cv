@@ -54,22 +54,27 @@
     === PhD, Machine Learning & Electronics, 
     #name[Université Grenoble Alpes]
     #term[2023 - 2026][Grenoble, France]
+    #v(0.5em)
 
     === Master, Computer Science & Artificial Intelligence, 
     #name[Université Paris Saclay]
     #term[2020 - 2022][Paris, France]
+    #v(0.5em)
 
     === Bachelor, Multimedia Design and Production, 
     #name[Université Évry Paris Saclay]
     #term[2016 - 2017][Paris, France]
+    #v(0.5em)
 
     === Master, International Business Administration, 
     #name[ESCG Paris Business School]
     #term[2014 - 2016][Paris, France]
+    #v(0.5em)
 
     === Bachelor, Economics and Finance, 
     #name[Université Sorbonne Paris Nord]
     #term[2011 - 2014][Paris, France]
+    #v(0.5em)
 
    
     #if target() == "paged" {
