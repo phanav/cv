@@ -3,12 +3,13 @@
 // #show link: set text(0.8em)
 
 #alta(
-  name: "Phan Anh VU",
+  name: "Phan Anh VU (\u{2642})",
   links: (
     (name: "email", link: "phanav.pavu@gmail.com"),
     (name: "website", link: "https://phanav.github.io", display: "phanav.github.io"),
     (name: "github", link: "https://github.com/phanav", display: "@phanav"),
     (name: "linkedin", link: "https://www.linkedin.com/in/phanav", display: "linkedin.com/in/phanav"),
+    (name: "scholar", link: "https://scholar.google.com/citations?user=ULsVXd0AAAAJ&hl=en", display: "Google Scholar"),
   ),
   tagline: [AI and chip design research],
   context [
@@ -95,9 +96,11 @@
     
     == Publications
 
+    Adaptive Low-Rank Ensemble: estimation of ensemble performance as a function of the size, and reduce memory size by 3 up to 6 with equal performance as traditional ensemble (preprint available on request).
+
     Compressed vector-matrix multiplication for Memristor-based ensemble neural networks (patented),
-    _IEEE International Conference on Rebooting Computing 2024_: 
-    #styled-link("https://phanav.github.io/posts/hardware/memristor_hadamard_multiplier.html")[Blog page]
+    _IEEE International Conference on Rebooting Computing 2024_: an analog in-memory computing circuit with memristor to implement vector element-wise multiplication and low-rank approximation of ensemble of neural networks 
+    #styled-link("https://phanav.github.io/posts/hardware/memristor_hadamard_multiplier.html")[(Blog page)].
 
     Probabilistic and Physics-Informed Machine Learning for Predictive Maintenance with Time Series Data, _EuroSimE 2023_: #styled-link("https://github.com/phanav/probabilistic-physics-satie")[Code repository]
 
