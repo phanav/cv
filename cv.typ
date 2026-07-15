@@ -85,7 +85,7 @@
     == Technical Skills
 
     * Machine Learning & Data Science:*    
-    Python, PyTorch, Keras, TensorFlow, Jax, numpy, pandas, scikit-learn, matplotlib, seaborn, Julia
+    Python, Jax, PyTorch, Keras, TensorFlow, numpy, pandas, scikit-learn, matplotlib, seaborn, Julia
 
     * Electronic Design Automation (EDA):*
     Cadence Virtuoso, Eldo, VHDL
