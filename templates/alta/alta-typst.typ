@@ -34,7 +34,7 @@
 }
 
 #let findMe(services) = {
-  set text(8pt)
+  set text(1em)
   let icon = icon.with(shift: 2.5pt)
 
   services
@@ -55,7 +55,7 @@
 
 #let term(period, location) = context {
   if target() == "paged" {
-    text(9pt, {
+    text(1em, {
       icon("calendar")
       period
       h(1fr)
