@@ -104,9 +104,9 @@
     Compressed vector-matrix multiplication for Memristor-based ensemble neural networks (patented),
     _IEEE International Conference on Rebooting Computing 2024_: an analog in-memory computing circuit with memristor to implement vector element-wise multiplication and low-rank approximation of ensemble of neural networks (#styled-link("https://phanav.github.io/posts/hardware/memristor_hadamard_multiplier.html")[Blog page]).
 
-    Probabilistic and Physics-Informed Machine Learning for Predictive Maintenance with Time Series Data, _EuroSimE 2023_: (#styled-link("https://github.com/phanav/probabilistic-physics-satie")[Code repository])
+    Probabilistic and Physics-Informed Machine Learning for Predictive Maintenance with Time Series Data, _EuroSimE 2023_ (#styled-link("https://github.com/phanav/probabilistic-physics-satie")[Code repository]).
 
-    Meta-Album: Multi-domain Meta-Dataset for Few-Shot Image Classification, _NeurIPS 2022 Datasets and Benchmarks_: (#styled-link("https://meta-album.github.io")[Website])
+    Meta-Album: Multi-domain Meta-Dataset for Few-Shot Image Classification, _NeurIPS 2022 Datasets and Benchmarks_ (#styled-link("https://meta-album.github.io")[Website]).
 
 
   == Languages
