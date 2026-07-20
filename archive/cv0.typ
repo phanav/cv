@@ -21,37 +21,32 @@
     #name[CEA (Commissariat à l'Énergie Atomique et alternative)]
     #term[2023/03 - 2026/07][Grenoble, France]
 
-    - Develop a method to efficiently estimate ensemble performance as a function of the size, and reduce memory size by 3 up to 6 with equal performance as traditional ensemble.
-    - Design a novel analog in-memory computing circuit using memristor with Cadence Virtuoso. Simulate the circuit with a CMOS technology process using Eldo.
+    Uncertainty in Deep Learning and Hardware Design
 
     === Intern Researcher, 
     #name[ENS Paris Saclay SATIE Lab]
     #term[2022/02 - 2022/08][Paris, France]
 
-    Study the prospects of using probabilistic and physics-informed machine learning for predictive maintenance of power electronics with time series data.
+    Probabilistic and physics-informed machine learning for predictive maintenance with time series data
 
     === Intern Researcher, 
     #name[Université Paris Saclay LISN Lab]
     #term[2021/04 - 2021/09][Paris, France]
 
-    Benchmark few-shot and meta learning algorithms on datasets across different domains.
+    Few-shot and meta learning
 
 
     === Software Engineer, 
     #name[Cegid Talentsoft]
     #term[2017/11 - 2019/12][Paris, France]
 
-    - For a talent management web application with estimated 9 million users and 2000 institutional clients, diagnose and resolve complex critical bugs, of various aspects such as front-end, back-end, database, infrastructure.
-    - Implement new features, developer tools.
+    Fullstack software development
 
-
-    /*
     === Web Developer & Designer, 
     #name[Ethikonsulting]
     #term[2016/09 - 2017/09][Paris, France]
 
-    Web development, graphic design 
-    */
+    Web development, graphic design
 
 
     == Education
@@ -59,28 +54,27 @@
     === PhD, Machine Learning & Electronics, 
     #name[Université Grenoble Alpes]
     #term[2023 - 2026][Grenoble, France]
+    #v(0.5em)
 
     === Master, Computer Science & Artificial Intelligence, 
     #name[Université Paris Saclay]
     #term[2020 - 2022][Paris, France]
+    #v(0.5em)
 
-   /* 
     === Bachelor, Multimedia Design and Production, 
     #name[Université Évry Paris Saclay]
     #term[2016 - 2017][Paris, France]
+    #v(0.5em)
 
     === Master, International Business Administration, 
     #name[ESCG Paris Business School]
     #term[2014 - 2016][Paris, France]
+    #v(0.5em)
 
     === Bachelor, Economics and Finance, 
     #name[Université Sorbonne Paris Nord]
     #term[2011 - 2014][Paris, France]
-<<<<<<< Updated upstream
-=======
-    #v(0.5em) 
-    */
->>>>>>> Stashed changes
+    #v(0.5em)
 
    
     #if target() == "paged" {
@@ -91,7 +85,7 @@
     == Technical Skills
 
     * Machine Learning & Data Science:*    
-    Python, PyTorch, Keras, TensorFlow, Jax, numpy, pandas, scikit-learn, matplotlib, seaborn, Julia
+    Python, Jax, PyTorch, Keras, TensorFlow, numpy, pandas, scikit-learn, matplotlib, seaborn, Julia
 
     * Electronic Design Automation (EDA):*
     Cadence Virtuoso, Eldo, VHDL
@@ -110,9 +104,9 @@
     Compressed vector-matrix multiplication for Memristor-based ensemble neural networks (patented),
     _IEEE International Conference on Rebooting Computing 2024_: an analog in-memory computing circuit with memristor to implement vector element-wise multiplication and low-rank approximation of ensemble of neural networks (#styled-link("https://phanav.github.io/posts/hardware/memristor_hadamard_multiplier.html")[Blog page]).
 
-    Probabilistic and Physics-Informed Machine Learning for Predictive Maintenance with Time Series Data, _EuroSimE 2023_: (#styled-link("https://github.com/phanav/probabilistic-physics-satie")[Code repository])
+    Probabilistic and Physics-Informed Machine Learning for Predictive Maintenance with Time Series Data, _EuroSimE 2023_ (#styled-link("https://github.com/phanav/probabilistic-physics-satie")[Code repository]).
 
-    Meta-Album: Multi-domain Meta-Dataset for Few-Shot Image Classification, _NeurIPS 2022 Datasets and Benchmarks_: (#styled-link("https://meta-album.github.io")[Website])
+    Meta-Album: Multi-domain Meta-Dataset for Few-Shot Image Classification, _NeurIPS 2022 Datasets and Benchmarks_ (#styled-link("https://meta-album.github.io")[Website]).
 
 
   == Languages
@@ -121,8 +115,8 @@
     #skill("中文, Español, Deutsch", 1)
 
 
-  // == Hobbies
-  // Dance (hiphop, latin), music (vocal, piano, guitar), tennis, books
+  == Hobbies
+  Dance (hiphop, latin), music (vocal, piano, guitar), tennis, books
 
   // end
   ],
