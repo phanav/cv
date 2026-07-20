@@ -180,7 +180,7 @@
   // Uses Cantarell or Liberation for Latin text + ñ, but drops into Noto for Chinese
   set text(11pt, font: ("Latin Modern Sans", "Liberation Sans", "Noto Sans CJK SC"))
   set page(
-    margin: (x: 1.7cm, y: 1.7cm),
+    margin: (x: 1.5cm, y: 1.5cm),
   )
 
   let body = {
@@ -212,7 +212,7 @@
         author: name,
       )
       set page(
-        margin: (x: 1.7cm, y: 1.7cm),
+        margin: (x: 1.5cm, y: 1.5cm),
       )
 
       show heading.where(
