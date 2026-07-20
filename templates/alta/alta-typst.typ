@@ -13,7 +13,26 @@
 // polyfill, as of Typst 0.14.0 target() only works when compiling with --features html
 // and you can't set --features html on typst.app
 #let target() = {
-  if "target" in dictionary(std) { std.target() } else { "paged" }
+  // if "target" in dictionary(std) { std.target() } else { "paged" }
+  // hard code to generate only pdf for now, html support breaks in version 0.15
+  "paged"
+}
+
+// polyfill updated for modern Typst context constraints
+// #let target() = context {
+//   if "target" in dictionary(std) { std.target() } else { "paged" }
+// }
+
+// A dummy object to trick the compiler when html isn't loaded
+#let html = if "html" in dictionary(std) {
+  std.html
+} else {
+  // Return an empty dictionary that safely swallows any .div() or .frame() calls
+  (
+    div: (..args) => [],
+    frame: (..args) => [],
+    elem: (..args) => [],
+  )
 }
 
 #let icon(name, shift: 1.5pt) = context {
@@ -161,7 +180,7 @@
   // Uses Cantarell or Liberation for Latin text + ñ, but drops into Noto for Chinese
   set text(11pt, font: ("Latin Modern Sans", "Liberation Sans", "Noto Sans CJK SC"))
   set page(
-    margin: (x: 1.7cm, y: 1.7cm),
+    margin: (x: 1.5cm, y: 1.5cm),
   )
 
   let body = {
@@ -185,41 +204,49 @@
   }
 
   // apply styling only for non-HTML output
-  if target() == "paged" {
-    set document(
-      title: name + "'s CV",
-      author: name,
-    )
-    set page(
-      margin: (x: 1.7cm, y: 1.7cm),
-    )
+// 1. Move the context keyword to the very outside of the check
+  context {
+    if target() == "paged" {
+      set document(
+        title: name + "'s CV",
+        author: name,
+      )
+      set page(
+        margin: (x: 1.5cm, y: 1.5cm),
+      )
 
-    show heading.where(
-      level: 2,
-    ): it => text(
-      fill: primary_colour,
-      [
-        #{ it.body }
-        #v(-7pt)
-        #line(length: 100%, stroke: 1pt + primary_colour)
-        // #line(length: 100%, stroke: 1pt)
+      show heading.where(
+        level: 2,
+      ): it => text(
+        fill: primary_colour,
+        [
+          #{ it.body }
+          #v(-7pt)
+          #line(length: 100%, stroke: 1pt + primary_colour)
+        ],
+      )
 
-      ],
-    )
+      show heading.where(
+        level: 3,
+      ): it => text(it.body)
 
-    show heading.where(
-      level: 3,
-    ): it => text(it.body)
+      show heading.where(
+        level: 4,
+      ): it => text(
+        fill: primary_colour,
+        it.body,
+      )
 
-    show heading.where(
-      level: 4,
-    ): it => text(
-      fill: primary_colour,
-      it.body,
-    )
-
-    body
-  } else {
-    html.div(body)
+      body
+    } else {
+    // Check if the html module is loaded in the standard library
+    if "html" in dictionary(std) {
+      std.html.elem("div", body)
+    } else {
+      body
+    }
   }
+  // context {}
+  }
+// alta {}  
 }
