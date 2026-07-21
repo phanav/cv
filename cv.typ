@@ -41,7 +41,7 @@
     #term[2017/11 - 2019/12][Paris, France]
 
     - For a talent management web application with estimated 9 million users and 2000 institutional clients, diagnose and resolve complex critical bugs, of various aspects such as front-end (JavaScript and TypeScript), back-end (C\#, .NET), database (SQLServer).
-    - Implement new features, developer tools.
+    - Implement new features, developer tools, optimize web and database performance.
 
 
     /*
