@@ -1,3 +1,5 @@
+// https://github.com/GeorgeHoneywood/alta-typst
+
 #let primary_colour = rgb("#cc241d") // red
 #let link_colour = rgb("#cc241d") // red
 
