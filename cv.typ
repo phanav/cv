@@ -11,7 +11,7 @@
     (name: "linkedin", link: "https://www.linkedin.com/in/phanav", display: "phanav"),
     (name: "scholar", link: "https://scholar.google.com/citations?user=ULsVXd0AAAAJ&hl=en", display: "Google Scholar"),
   ),
-  tagline: [AI and chip design research],
+  tagline: [AI and chip design research engineer],
   context [
 
 
@@ -21,8 +21,8 @@
     #name[CEA (Commissariat à l'Énergie Atomique et alternative)]
     #term[2023/03 - 2026/07][Grenoble, France]
 
-    - Develop novel methods for efficient uncertainty quantification in deep learning, with a focus on hardware-software co-design. Implement the proposed algorithm in Jax, using Vision Transformer and MLPMixer architecture, and benchmark against existing methods.
-    - Implement the proposed algorithm method in hardware. Design a novel analog in-memory computing circuit using memristor with Cadence Virtuoso. Simulate the circuit with a CMOS technology process using Eldo.
+    - Develop novel methods for efficient uncertainty quantification in deep learning, with a focus on hardware-software co-design. Implement the proposed method in Jax, using Vision Transformer and MLPMixer architecture, and benchmark against existing methods.
+    - Implement the proposed algorithm in hardware. Design a novel analog in-memory computing circuit using memristor with Cadence Virtuoso. Simulate the circuit with a CMOS technology process using Eldo.
 
     === Intern Researcher, 
     #name[ENS Paris Saclay SATIE Lab]
@@ -34,13 +34,13 @@
     #name[Université Paris Saclay LISN Lab]
     #term[2021/04 - 2021/09][Paris, France]
 
-    Benchmark PyTorch implementations of various methods for uncertainty quantification in deep learning.
+    Benchmark PyTorch implementations of various methods for few-shot learning and meta-learning on datasets across different domains.
 
     === Software Engineer, 
     #name[Cegid Talentsoft]
     #term[2017/11 - 2019/12][Paris, France]
 
-    - For a talent management web application with estimated 9 million users and 2000 institutional clients, diagnose and resolve complex critical bugs, of various aspects such as front-end (JavaScript and TypeScript), back-end (C\#, .NET), database (SQLServer), infrastructure.
+    - For a talent management web application with estimated 9 million users and 2000 institutional clients, diagnose and resolve complex critical bugs, of various aspects such as front-end (JavaScript and TypeScript), back-end (C\#, .NET), database (SQLServer).
     - Implement new features, developer tools.
 
 
