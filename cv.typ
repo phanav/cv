@@ -19,7 +19,7 @@
 
     === PhD Researcher, 
     #name[CEA (Commissariat à l'Énergie Atomique et alternative)]
-    #term[2023/03 - 2026/07][Grenoble, France]
+    #term[2023/03 - 2026/06][Grenoble, France]
 
     - Develop novel methods for efficient uncertainty quantification in deep learning, with a focus on hardware-software co-design. Implement the proposed method in Jax, using Vision Transformer and MLPMixer architecture, and benchmark against existing methods.
     - Implement the proposed algorithm in hardware. Design a novel analog in-memory computing circuit using memristor with Cadence Virtuoso. Simulate the circuit with a CMOS technology process using Eldo.
